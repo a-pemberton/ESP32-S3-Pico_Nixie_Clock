@@ -39,8 +39,8 @@
 //---------------------------------------------------------------------------------
 
 #ifndef STASSID
-#define STASSID "COWROAST20"
-#define STAPSK "Albatross#9"
+#define STASSID "YourSSID"
+#define STAPSK "YourWiFiPassword"
 #endif
 
 #define My_Hostname "Nixie_Clock"
