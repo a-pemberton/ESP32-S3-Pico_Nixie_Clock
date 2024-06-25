@@ -36,8 +36,8 @@
 //---------------------------------------------------------------------------------
 
 #define NTPpoolName_1 "time.nist.gov"   // Default NTP time server - others are available!
-#define NTPpoolName_2 "ts1.platformtwenty.info" 
-#define NTPpoolName_3 "ts2.platformtwenty.info"
+#define NTPpoolName_2 "0.pool.ntp.org" 
+#define NTPpoolName_3 "1.pool.ntp.org"
 
 #define local_NTP_Port 2390
 #define NTP_port 123
@@ -51,6 +51,7 @@
 
 #define STATUS_CHECK_INTERVAL 10000L
 
+// ToDo: Make timezone configurable
 #define timezone_Test_Data "GMT0BST,M3.5.0/1,M10.5.0" // Set for Europe/London
 
 #endif
